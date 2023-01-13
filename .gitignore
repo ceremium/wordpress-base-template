@@ -1,0 +1,11 @@
+/vendor/
+
+COMMANDS.md
+
+.DS_Store
+
+data
+deploy
+public/wp
+
+.env
