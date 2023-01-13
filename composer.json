@@ -1,0 +1,43 @@
+{
+    "name": "ceremium/wordpress-base-template",
+    "description": "Wordpress boilerplate",
+    "autoload": {
+        "psr-4": {
+            "Ceremium\\WordpressBaseTemplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mthomsit",
+            "email": "mark@ceremium.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-plugin/"
+        }
+    ],
+    "require": {
+        "php": ">=8",
+        "johnpbloch/wordpress": "6.1.1",
+        "vlucas/phpdotenv": "^5.5",
+        "advanced-custom-fields/advanced-custom-fields-pro": "^6.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true,
+            "pivvenit/acf-pro-installer": true,
+            "composer/installers": true
+        },
+        "vendor-dir": "src/theme/vendor"
+    },
+    "extra": {
+        "wordpress-install-dir": "public/wp",
+        "installer-paths": {
+            "public/wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ]
+        }
+    }
+}

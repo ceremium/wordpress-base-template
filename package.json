@@ -1,0 +1,12 @@
+{
+  "name": "wordpress-base-template",
+  "version": "1.0.0",
+  "description": "Boilerplate wordpress",
+  "main": "index.js",
+  "repository": "https://github.com/ceremium/wordpress-base-template.git",
+  "author": "mthomsit <mark@ceremium.com>",
+  "license": "MIT"
+  "scripts": {
+
+  }
+}
