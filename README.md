@@ -21,11 +21,11 @@ https://make.wordpress.org/cli/handbook/guides/installing/
 Dump wordpress
 
 ```
-MYSQL_PWD=[password] mysqldump -u jeffries wordpress_jeffries > ./data/sql/wordpress_jeffries.sql
+MYSQL_PWD=[password] mysqldump -u base wordpress_base > ./data/sql/wordpress_base.sql
 ```
 
 Import wordpress
 
 ```
-MYSQL_PWD=[password] mysql -u jeffries wordpress_jeffries < ./data/sql/wordpress_jeffries.sql
+MYSQL_PWD=[password] mysql -u base wordpress_base < ./data/sql/wordpress_base.sql
 ```

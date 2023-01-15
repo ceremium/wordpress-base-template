@@ -443,3 +443,11 @@
 [15-Jan-2023 21:36:21 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
 [15-Jan-2023 21:36:32 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
 [15-Jan-2023 21:36:32 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Jan-2023 21:48:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Jan-2023 21:48:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Jan-2023 21:50:33 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Jan-2023 21:50:33 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Jan-2023 21:50:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Jan-2023 21:50:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[15-Jan-2023 21:51:54 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'base'@'localhost' (using password: YES) in /Users/mark/ceremium/wordpress-base-template/public/wp/wp-includes/class-wpdb.php on line 1775
+[15-Jan-2023 21:51:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
