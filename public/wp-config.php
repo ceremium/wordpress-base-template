@@ -30,7 +30,7 @@ $is_show_errors = $is_local || $is_dev;
 
 if ($is_local) {
     // load env vars from .env if local
-    $autoload_filepath = __DIR__ . '/wp-content/themes/jeffries/vendor/autoload.php';
+    $autoload_filepath = __DIR__ . '/wp-content/themes/ui/vendor/autoload.php';
     require_once $autoload_filepath;
 
     $path   = realpath(__DIR__ . '/../');

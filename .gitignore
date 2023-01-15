@@ -1,11 +1,23 @@
-/vendor/
-
+# Unsafe documentation
 COMMANDS.md
 
+# Mac
 .DS_Store
 
+# Data / SQL
 data
-deploy
-public/wp
 
+# Docker
+deploy
+
+# Environment
 .env
+
+# Composer installations
+src/theme/vendor
+/vendor/
+public/wp
+public/wp-content/plugins
+
+# Logs
+public/wp-content/debug.log
