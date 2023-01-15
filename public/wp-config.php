@@ -54,7 +54,7 @@ define('WP_REDIS_HOST', $redis_host);
 define('WP_REDIS_MAXTTL', "3600");
 
 if ($is_local) {
-    define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME'] . '/jeffries/website');
+    define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME'] . '/ui/website');
 } else {
     define('WP_HOME', 'https://' . $_SERVER['SERVER_NAME']);
     ini_set('session.cookie_httponly', true);
@@ -70,7 +70,7 @@ define('WP_CONTENT_URL', WP_HOME . '/wp-content');
 define('WP_PLUGIN_DIR', WP_CONTENT_DIR . '/plugins');
 define('WP_PLUGIN_URL', WP_CONTENT_URL . '/plugins');
 
-define('WP_DEFAULT_THEME', 'jeffries');
+define('WP_DEFAULT_THEME', 'ui');
 define('DISALLOW_FILE_EDIT', true);
 
 // Disable Redis promotional banners
