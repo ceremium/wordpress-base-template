@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14119df49a1dab1c707b074b5d825352",
+    "content-hash": "2ca5ddb571dcd8034e10088e2370f24e",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -39,6 +39,65 @@
                 "docs": "https://www.advancedcustomfields.com/resources/",
                 "forum": "https://support.advancedcustomfields.com/topics/"
             }
+        },
+        {
+            "name": "boxuk/wp-muplugin-loader",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boxuk/wp-muplugin-loader.git",
+                "reference": "e7f03177f42e016e18e30168bf3a936000e77ed1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boxuk/wp-muplugin-loader/zipball/e7f03177f42e016e18e30168bf3a936000e77ed1",
+                "reference": "e7f03177f42e016e18e30168bf3a936000e77ed1",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "10up/wp_mock": "^0.4",
+                "composer/composer": "^1.10 || ^2.0",
+                "mockery/mockery": "~1.3",
+                "phpunit/phpunit": "^9"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "LkWdwrd\\Composer\\MULoaderPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "LkWdwrd\\Composer\\": "src/lkwdwrd/Composer"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Box UK",
+                    "email": "developers@boxuk.com"
+                },
+                {
+                    "name": "Luke Woodward",
+                    "email": "woodward.lucas@gmail.com"
+                }
+            ],
+            "description": "A drop-in MU Plugin loader for WordPress",
+            "keywords": [
+                "loader",
+                "muplugin",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/boxuk/wp-muplugin-loader/issues",
+                "source": "https://github.com/boxuk/wp-muplugin-loader/tree/1.6.1"
+            },
+            "time": "2021-12-01T17:08:36+00:00"
         },
         {
             "name": "composer/installers",

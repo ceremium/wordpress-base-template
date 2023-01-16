@@ -9,7 +9,7 @@
     "authors": [
         {
             "name": "mthomsit",
-            "email": "mark@ceremium.com"
+            "email": "mark@evident.studio"
         }
     ],
     "repositories": [
@@ -22,13 +22,15 @@
         "php": ">=8",
         "johnpbloch/wordpress": "6.1.1",
         "vlucas/phpdotenv": "^5.5",
-        "advanced-custom-fields/advanced-custom-fields-pro": "^6.0"
+        "advanced-custom-fields/advanced-custom-fields-pro": "^6.0",
+        "boxuk/wp-muplugin-loader": "^1.6.1"
     },
     "config": {
         "allow-plugins": {
             "johnpbloch/wordpress-core-installer": true,
             "pivvenit/acf-pro-installer": true,
-            "composer/installers": true
+            "composer/installers": true,
+            "boxuk/wp-muplugin-loader": true
         },
         "vendor-dir": "src/theme/vendor"
     },
@@ -37,7 +39,12 @@
         "installer-paths": {
             "public/wp-content/plugins/{$name}/": [
                 "type:wordpress-plugin"
+            ],
+            "public/wp-content/mu-plugins/{$name}/": [
+                "type:wordpress-muplugin"
             ]
-        }
+        },
+        "force-mu": [
+        ]
     }
 }

@@ -18,6 +18,8 @@ https://make.wordpress.org/cli/handbook/guides/installing/
 
 ## Operations
 
+Update with your local details and use the following to import and export the wordpress database
+
 Dump wordpress
 
 ```
@@ -28,4 +30,18 @@ Import wordpress
 
 ```
 MYSQL_PWD=[password] mysql -u base wordpress_base < ./data/sql/wordpress_base.sql
+```
+
+## Repository configuration
+
+### Namesace
+
+Update the composer.json with your namespace
+
+```
+"autoload": {
+    "psr-4": {
+        "Ceremium\\WordpressBaseTemplate\\": "src/"
+    }
+},
 ```

@@ -18,6 +18,7 @@ src/theme/vendor
 /vendor/
 public/wp
 public/wp-content/plugins
+public/wp-content/mu-plugins
 
 # Logs
 public/wp-content/debug.log
